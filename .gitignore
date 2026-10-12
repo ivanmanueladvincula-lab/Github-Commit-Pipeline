@@ -1,0 +1,17 @@
+# Python environments
+venv/
+__pycache__/
+*.pyc
+
+# Database files
+*.duckdb
+*.duckdb.wal
+
+# dbt generated files
+transform_layer/target/
+transform_layer/dbt_packages/
+transform_layer/logs/
+logs/
+
+# OS generated files
+.DS_Store

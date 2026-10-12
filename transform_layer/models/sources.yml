@@ -1,0 +1,6 @@
+version: 2
+sources:
+  - name: bronze_layer
+    schema: bronze_layer
+    tables:
+      - name: get_commits

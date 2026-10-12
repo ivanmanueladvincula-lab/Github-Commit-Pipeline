@@ -1,0 +1,21 @@
+
+name: 'transform_layer'
+version: '1.0.0'
+
+profile: 'transform_layer'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  transform_layer:
+    example:
+      +materialized: view
